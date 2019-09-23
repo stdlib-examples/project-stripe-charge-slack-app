@@ -1,8 +1,8 @@
-# Stripe Charge Enrichment Slack Bot
+# Stripe Charge Slack Bot
 
 [<img src="https://deploy.stdlib.com/static/images/deploy.svg" width="192">](https://deploy.stdlib.com/)
 
-This is a Slack bot that enriches new Stripe charges using Clearbit, stores information about them in Airtable, and sends an alert to a Slack channel called `#demo`. It is written in Node.js and uses [Build on Standard Library](https://build.stdlib.com).
+This is a Slack bot that stores information about new Stripe charges in Airtable and sends an alert to a Slack channel called `#demo`. It is written in Node.js and uses [Build on Standard Library](https://build.stdlib.com).
 
 ![](./readme/images/enriched-charge-alert.png)
 
