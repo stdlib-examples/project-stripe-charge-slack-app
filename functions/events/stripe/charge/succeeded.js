@@ -30,9 +30,8 @@ module.exports = async (charge, event) => {
     fields: {
       'Stripe Id': `${charge.id}`,
       'Email': `${result.step1.customer.email}`,
-      'Company': `${result.step2.enrichment.company && result.step2.enrichment.company.name}`,
-      'Charge Data': `${JSON.stringify(charge, null, 2)}`,
-      'User Data': `${JSON.stringify(result.step2.enrichment.person, null, 2)}`
+      'Amount': `$${charge.amount / 100}`,
+      'Charge Data': `${JSON.stringify(charge, null, 2)}`
     }
   });
 
