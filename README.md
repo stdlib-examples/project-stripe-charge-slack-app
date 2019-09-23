@@ -2,7 +2,7 @@
 
 [<img src="https://deploy.stdlib.com/static/images/deploy.svg" width="192">](https://deploy.stdlib.com/)
 
-This is a Slack bot that stores information about new Stripe charges in Airtable and sends an alert to a Slack channel called `#demo`. It is written in Node.js and uses [Build on Standard Library](https://build.stdlib.com).
+This is a Slack bot that stores information about new Stripe charges in Airtable and sends an alert to a Slack channel called `#general`. It is written in Node.js and uses [Build on Standard Library](https://build.stdlib.com).
 
 ![](./readme/images/charge-alert.png)
 
@@ -11,7 +11,7 @@ This is a Slack bot that stores information about new Stripe charges in Airtable
 [<img src="https://deploy.stdlib.com/static/images/deploy.svg" width="192">](https://deploy.stdlib.com/)
 
 1. First, go to https://airtable.com/addBaseFromShare/shrMvMavY2FDCtnL4 to add a copy of the required Airtable base to your Airtable workspace.
-2. Click the "Deploy to Standard Library" button above and link the required accounts. For Airtable, make sure you select the base you just copied, and for Slack, use the default option and make sure your workspace has a channel called `#demo`. We also recommend using a fresh test Slack workspace rather than an active one –– you can create one [here](https://slack.com/create#email).
+2. Click the "Deploy to Standard Library" button above and link the required accounts. For Airtable, make sure you select the base you just copied, and for Slack, use the default option. We also recommend using a fresh test Slack workspace rather than an active one –– you can create one [here](https://slack.com/create#email).
 3. Follow the prompt to test your project. You should see a dummy charge in your Airtable base and Slack channel!
 
 ## Creating a Test Invoice in Stripe
