@@ -62,7 +62,7 @@ module.exports = async (charge, event) => {
   result.step4 = {};
   result.step4.response = await lib.slack.channels['@0.6.0'].messages.create({
     channel: `#demo`,
-    text: `*New Purchase!*`,
+    text: `*New Stripe Charge!*`,
     attachments: [{
       text: `${result.step1.customer.email} just paid *$${charge.amount / 100}*`,
       color: '#2EB67D'
