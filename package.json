@@ -1,0 +1,7 @@
+{
+  "name": "project-stripe-charge-enrichment-slack-bot",
+  "author": "jacoblee",
+  "dependencies": {
+    "lib": "latest"
+  }
+}

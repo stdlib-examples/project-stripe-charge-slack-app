@@ -1,0 +1,14 @@
+{
+  "name": "jacoblee/business-bot",
+  "timeout": 20000,
+  "version": "0.0.0",
+  "description": "",
+  "events": [
+    {
+      "stripe.charge.succeeded": {
+        "filename": "events/stripe/charge/succeeded",
+        "subtype": null
+      }
+    }
+  ]
+}
