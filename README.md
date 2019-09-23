@@ -4,7 +4,7 @@
 
 This is a Slack bot that stores information about new Stripe charges in Airtable and sends an alert to a Slack channel called `#demo`. It is written in Node.js and uses [Build on Standard Library](https://build.stdlib.com).
 
-![](./readme/images/enriched-charge-alert.png)
+![](./readme/images/charge-alert.png)
 
 ## Setup
 
