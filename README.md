@@ -2,7 +2,7 @@
 
 [<img src="https://deploy.stdlib.com/static/images/deploy.svg" width="192">](https://deploy.stdlib.com/)
 
-This is a Slack bot that stores information about new Stripe charges in Airtable and sends an alert to a Slack channel called `#general`. It is written in Node.js and uses [Build on Standard Library](https://build.stdlib.com).
+This is a Slack bot that stores information about new Stripe charges in Airtable and sends an alert to a Slack channel. It is written in Node.js and uses [Build on Standard Library](https://build.stdlib.com).
 
 ![](./readme/images/charge-alert.png)
 
